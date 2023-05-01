@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sitio web blog drumcode">
+    <meta name="keywords" content="html,css,sass,bootstrap">
+    <link rel="shortcut icon" href="./img/drumcode-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Drumcode</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Drumcode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/artist.html">Artist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/inicio-1.jpg" alt="Set dj" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img-2.jpg" alt="Console Dj" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img-3.jpg" alt="Console Dj" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="drumcode-description">
+        <div class="home-info">
+            <h2 data-aos="fade-down">History</h2>
+            <p data-aos="fade-down">Drumcode Records is a Swedish techno record label run by Adam Beyer. Since it was created in 1996, the label has released several hits, unveiled new talents, and participated in radio and in conjunction with other international labels.
+            In 2017-2018, Drumcode was the best-selling techno label on Beatport, according to BeatStats, and the third best-selling label on Beatport of all time. Although Drumcode originally only worked with Swedish or Scandinavian producers, it now also works with DJs of other nationalities whose sound fits the musical lineup.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo-footer">
+            <a href="index.html">Drumcode</a>
+        </div>
+        <div class="iconos">
+            <a href="https://www.instagram.com/drumcoderecords/?hl=es"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://soundcloud.com/drumcode"><i class="fa-brands fa-soundcloud"></i></a>
+            <a href="https://open.spotify.com/track/7x9LmtdQeEfwaaWRWEePa7"><i class="fa-brands fa-spotify"></i></a>
+        </div>
+        <p>All rights reserved - Enzo2023</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

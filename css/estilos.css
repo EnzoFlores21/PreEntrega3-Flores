@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #092a3f;
+  font-family: font-family "Raleway", sans-serif;
+}
+.navbar .navbar-brand {
+  color: #c1cfca;
+}
+.navbar a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.drumcode-description {
+  height: 500px;
+  background-color: #092a3f;
+  width: 100%;
+  font-family: font-family "Raleway", sans-serif;
+}
+.drumcode-description .home-info {
+  color: #c1cfca;
+  padding: 20px;
+  width: 100%;
+}
+.drumcode-description h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.drumcode-description p {
+  margin-top: 20px;
+  line-height: 27px;
+}
+
+footer {
+  background-color: #092a3f;
+  height: 200px;
+  width: 100%;
+  font-family: font-family "Raleway", sans-serif;
+}
+footer .logo-footer {
+  text-align: center;
+  padding-top: 20px;
+}
+footer a {
+  color: #c1cfca;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+footer .iconos {
+  text-align: center;
+  padding-top: 10px;
+}
+footer i {
+  color: #c1cfca;
+  font-size: 22px;
+  padding: 8px;
+}
+footer i:hover {
+  color: #c1cfca;
+  transform: scale(1.35);
+  transition: all 1s;
+}
+footer p {
+  text-align: center;
+  color: #c1cfca;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+main {
+  background-color: #092a3f;
+  height: 2000px;
+  width: 100%;
+  font-family: font-family "Raleway", sans-serif;
+}
+main .artist {
+  width: 80%;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+main .card {
+  background-color: #c1cfca;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+main img {
+  height: 160px;
+}
+main h3 {
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.events {
+  background-color: #092a3f;
+  height: 760px;
+  width: 100%;
+  padding-top: 20px;
+  font-family: font-family "Raleway", sans-serif;
+}
+.events .box {
+  background-color: #c1cfca;
+  height: 157px;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.events .box:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+  box-shadow: 0 0 5px #000000;
+}
+.events h3 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.events p {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.events a {
+  color: #000000;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 18px;
+}
+
+.formulario {
+  background: linear-gradient(#092a3f, #c1cfca);
+  height: 420px;
+  width: 100%;
+  font-family: font-family "Raleway", sans-serif;
+}
+.formulario h2 {
+  text-align: center;
+  color: #c1cfca;
+  padding-top: 25px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.formulario form {
+  background-color: #c1cfca;
+  height: 300px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px #000000;
+  border-radius: 8px;
+}
+.formulario .campo_name {
+  color: #092a3f;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.formulario .campo_input {
+  width: 90%;
+  margin-left: 15px;
+  border: none;
+  box-shadow: 0 0 4px #092a3f;
+}
+.formulario .btn-contact {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #092a3f;
+  color: #c1cfca;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px;
+}
+.formulario .btn-contact:hover {
+  transform: scale(1.06);
+  transition: all 0.4s;
+  font-weight: bold;
+}
+
+.maps {
+  background: linear-gradient(to top, #092a3f, #c1cfca);
+  width: 100%;
+}
+.maps iframe {
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  .navbar-expand-sm .navbar-collapse {
+    display: flex !important;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  .navbar-expand-sm .navbar-collapse a {
+    font-size: 20px;
+  }
+  .home-info h2 {
+    text-align: center;
+  }
+  .home-info p {
+    margin-top: 50px;
+    line-height: 35px;
+  }
+  main {
+    height: 1800px;
+  }
+  main .artist {
+    width: 65%;
+  }
+  .events .box {
+    width: 70%;
+  }
+  .events .box a {
+    margin-top: 15px;
+  }
+  form {
+    width: 75%;
+  }
+  .maps iframe {
+    width: 80%;
+    margin-left: 60px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

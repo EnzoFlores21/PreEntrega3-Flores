@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+// Variables
+$colorPrimario: #092a3f;
+$colorSecundario: #c1cfca;
+$colorBlanco: #ffffff;
+$colorNegro: #000000;
+$fuentePrincipal: font-family 'Raleway', sans-serif;
+
+// Home
+// Header
+.navbar{
+    background-color: $colorPrimario;
+    font-family: $fuentePrincipal;
+
+    .navbar-brand{
+        color: $colorSecundario;
+    }
+
+        a{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+}
+
+// Info
+// Section
+.drumcode-description{
+    height: 500px;
+    background-color: $colorPrimario;
+    width: 100%;
+    font-family: $fuentePrincipal;
+
+    .home-info{
+        color: $colorSecundario;
+        padding: 20px;
+        width: 100%;
+    }
+
+        h2{
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p{
+            margin-top: 20px;
+            line-height: 27px;
+        }
+}
+
+// Footer
+footer{
+    background-color: $colorPrimario;
+    height: 200px;
+    width: 100%;
+    font-family: $fuentePrincipal;
+
+    .logo-footer{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+        a{
+            color: $colorSecundario;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    
+    .iconos{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+        i{
+            color: $colorSecundario;
+            font-size: 22px;
+            padding: 8px;
+        }
+
+        i:hover{
+            color: $colorSecundario;
+            transform: scale(1.35);
+            transition: all 1s;
+        }
+
+        p{
+            text-align: center;
+            color: $colorSecundario;
+            padding-top: 20px;
+            font-weight: bold;
+        }
+}
+
+// Artist
+// Main
+main{
+    background-color: $colorPrimario;
+    height: 2000px;
+    width: 100%;
+    font-family: $fuentePrincipal;
+
+    .artist{
+        width: 80%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .card{
+        background-color: $colorSecundario;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+        img{
+            height: 160px;
+        }
+
+        h3{
+            font-size: 24px;
+            padding-top: 10px;
+        }
+}
+
+// Events
+// Section
+.events{
+    background-color: $colorPrimario;
+    height: 760px;
+    width: 100%;
+    padding-top: 20px;
+    font-family: $fuentePrincipal;
+
+    .box{
+        background-color: $colorSecundario;
+        height: 157px;
+        padding: 10px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    .box:hover{
+        transform: scale(1.10);
+        transition: all 1s;
+        box-shadow: 0 0 5px $colorNegro;
+    }
+
+        h3{
+            color: $colorNegro;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        p{
+            color: $colorNegro;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+
+        a{
+            color: $colorNegro;
+            text-transform: uppercase;
+            width: 100%;
+            font-size: 18px;
+        }
+}
+
+// Contact
+// Section Form
+.formulario{
+    background: linear-gradient($colorPrimario,$colorSecundario);
+    height: 420px;
+    width: 100%;
+    font-family: $fuentePrincipal;
+
+        h2{
+            text-align: center;
+            color: $colorSecundario;
+            padding-top: 25px;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        form{
+            background-color: $colorSecundario;
+            height: 300px;
+            width: 90%;
+            margin: 0 auto;
+            box-shadow: 0 0 2px $colorNegro;
+            border-radius: 8px;
+        }
+
+    .campo_name{
+        color: $colorPrimario;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .campo_input{
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+        box-shadow: 0 0 4px $colorPrimario;
+    }
+
+    .btn-contact{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 90%;
+        border-radius: 10px;
+        background-color: $colorPrimario;
+        color: $colorSecundario;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 6px;
+    }
+
+    .btn-contact:hover{
+        transform: scale(1.06);
+        transition: all 0.4s;
+        font-weight: bold;
+    }
+}
+
+// Aside
+.maps{
+    background: linear-gradient(to top,$colorPrimario,$colorSecundario);
+    width: 100%;
+
+        iframe{
+            width: 100%;
+            margin: 0 auto;
+            height: 350px;
+            padding: 20px;
+            border-radius: 14px;
+        }
+}
+
+// Medias Queries
+// Tablets
+@media (min-width: 768px) {
+    .navbar-brand{
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .navbar-expand-sm .navbar-collapse{
+        display: flex !important;
+        justify-content: flex-end;
+        padding: 20px;
+
+        a{
+            font-size: 20px;
+        }
+    }
+
+    .home-info{
+        h2{
+            text-align: center;
+        }
+
+        p{
+            margin-top: 50px;
+            line-height: 35px;
+        }
+    }
+
+        main{
+            height: 1800px;
+
+            .artist{
+                width: 65%;
+            }
+        }
+    
+    .events{
+        .box{
+            width: 70%;
+
+                a{
+                    margin-top: 15px;
+                }
+        }
+    }
+
+        form{
+            width: 75%;
+        }
+
+    .maps{
+        iframe{
+            width: 80%;
+            margin-left: 60px;
+        }
+    }
+}
