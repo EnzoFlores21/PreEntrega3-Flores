@@ -245,5 +245,59 @@ main h3 {
     margin-left: 60px;
   }
 }
+@media (min-width: 1024px) {
+  .navbar-expand-sm {
+    height: 140px;
+  }
+  .nav-item a {
+    font-size: 20px !important;
+  }
+  .navbar-brand {
+    font-size: 32px;
+  }
+  .home-info h2 {
+    font-size: 25px;
+  }
+  .home-info p {
+    font-size: 20px;
+    line-height: 45px;
+  }
+  main {
+    height: 1400px;
+  }
+  .artist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+  }
+  .card {
+    margin-top: 40px;
+  }
+  .events {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 700px;
+  }
+  .events .box {
+    width: 400px;
+    height: 180px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .campo {
+    display: flex;
+    flex-direction: column;
+  }
+  .campo .btn-contact:hover {
+    transform: scale(1.04);
+    transition: all 1s;
+  }
+  .formulario form {
+    width: 65%;
+  }
+  .maps iframe {
+    width: 90%;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
